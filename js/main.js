@@ -47,7 +47,9 @@ $(window).on('load', function() {
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
 		items: 1,
-		autoplay: true
+		autoplay: true,
+		autoplayTimeout:5000,
+		autoplayHoverPause:true
 	});
 
 	/*--------------------------
@@ -136,3 +138,16 @@ $(window).on('load', function() {
 
 })(jQuery);
 
+
+// window.onscroll = function() {myFunction()};
+
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset > sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
