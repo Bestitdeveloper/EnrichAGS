@@ -565,9 +565,9 @@ Hero section
 
 .hero-section {
 	padding-top: 400px;
-    padding-bottom: 108px;
-    position: relative;
-    margin-top: 75px;
+	padding-bottom: 108px;
+	position: relative;
+	margin-top: 75px;
 }
 
 .hero-section .container {
@@ -1705,14 +1705,14 @@ a:active {
 	}
 }
 
- .enrich-top-section{
-	margin-top: 146px;
+.enrich-top-section {
+	margin-top: 190px;
 }
 
-.enrich-accordian{
+.enrich-accordian {
 	padding: 0 115px;
 }
 
-.active-tab{
+.active-tab {
 	background-color: #000;
 }
