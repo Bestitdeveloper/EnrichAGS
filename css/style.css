@@ -100,7 +100,7 @@ Helper CSS
 }
 
 .spad {
-	padding-top: 122px;
+	padding-top: 102px;
 	padding-bottom: 102px;
 }
 
@@ -394,12 +394,14 @@ Commom elements
 		border: 4px solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
 		border: 4px solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -414,11 +416,13 @@ Commom elements
 		border: 4px solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(180deg);
 		border: 4px solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		border: 4px solid #f44336;
@@ -446,13 +450,14 @@ Header section
 
 .site-logo {
 	float: left;
-	padding: 24px 0;
+	display: inline-block;
+	padding: 33px 0;
 }
 
-.main-menu {
+/* .main-menu {
 	display: inline-block;
 	padding-right: 50px;
-}
+} */
 
 .main-menu li {
 	display: inline-block;
@@ -464,8 +469,7 @@ Header section
 	font-size: 16px;
 	color: #ffffff;
 	font-weight: 600;
-	padding: 33px 5px;
-	margin-right: 25px;
+	padding: 8px 10px;
 }
 
 .main-menu li a:hover,
@@ -520,10 +524,9 @@ Header section
 }
 
 .header-right .hr-btn {
-	color: #fff;
+	color: #313038;
 	font-size: 16px;
 	font-weight: 700;
-	background: #313038;
 	padding: 36px 30px 36px 60px;
 	line-height: 1.2;
 	position: relative;
@@ -561,9 +564,10 @@ Hero section
  ---------------------*/
 
 .hero-section {
-	padding-top: 191px;
-	padding-bottom: 108px;
-	position: relative;
+	padding-top: 400px;
+    padding-bottom: 108px;
+    position: relative;
+    margin-top: 75px;
 }
 
 .hero-section .container {
@@ -612,7 +616,7 @@ Hero section
 }
 
 .hs-text {
-	padding-top: 250px;
+	padding-top: 95px;
 	padding-right: 10px;
 }
 
@@ -1334,8 +1338,7 @@ Contact Page
 
 .contact-text h2 {
 	font-weight: 700;
-	margin-bottom: 10px;
-	margin-top: 46px;
+	margin-bottom: 38px;
 }
 
 .contact-text p {
@@ -1399,7 +1402,7 @@ Contact Page
 }
 
 .contact-form textarea {
-	height: 200px;
+	height: 222px;
 	padding: 20px 27px 10px;
 	margin-bottom: 35px;
 	resize: none;
@@ -1430,9 +1433,11 @@ Contact Page
 	.main-menu {
 		padding-right: 0;
 	}
+
 	.main-menu li a {
 		margin-right: 30px;
 	}
+
 	.header-right .hr-btn.hr-btn-2 {
 		min-width: 210px;
 	}
@@ -1444,18 +1449,23 @@ Contact Page
 	.header-section {
 		padding-left: 15px;
 	}
+
 	.main-menu {
 		padding-right: 0;
 	}
-	.main-menu li a {
+
+	/* .main-menu li a {
 		margin-right: 15px;
-	}
+	} */
+
 	.header-right .hr-btn.hr-btn-2 {
 		min-width: auto;
 	}
+
 	.score-section .hand-img {
 		right: 0;
 	}
+
 	.hero-slider .owl-dots {
 		max-width: 930px;
 		left: calc(50% - 465px);
@@ -1468,31 +1478,39 @@ Contact Page
 	.header-section {
 		padding: 0 25px;
 	}
+
 	.main-menu {
 		padding-right: 0;
 	}
+
 	.main-menu li a {
 		margin-right: 0;
 		margin-left: 30px;
 	}
-	.header-right {
+
+	/* .header-right {
 		display: none;
-	}
+	} */
+
 	.hero-slider .owl-dots {
 		max-width: 690px;
 		left: calc(50% - 345px);
 	}
+
 	.hs-text {
 		margin-bottom: 50px;
 		padding-top: 0;
 	}
+
 	.icon-box-item .ib-icon {
 		float: none;
 		margin-bottom: 20px;
 	}
+
 	.score-section .hand-img {
 		display: none;
 	}
+
 	.sidebar {
 		padding-top: 50px;
 	}
@@ -1505,66 +1523,89 @@ Contact Page
 		overflow: hidden;
 		padding: 0 25px;
 	}
-	.main-menu {
+
+	/* .main-menu {
 		display: none;
-	}
+	} */
+
 	.slicknav_menu {
 		padding: 0;
 		display: block;
 		background: transparent;
 	}
+
 	.slicknav_btn {
 		background: #616161;
 		margin-top: 29px;
 	}
+
 	.slicknav_nav {
 		background: #22242b;
 		margin-bottom: 30px;
 	}
+
 	.slicknav_nav a {
 		margin: 0;
 		padding: 10px 20px;
 		border-bottom: 1px solid #111;
 	}
+
 	.slicknav_nav a:hover {
 		color: #f43f00;
 		border-radius: 0;
 		background: #0b0e25;
 	}
+
 	.slicknav_nav .slicknav_row {
 		padding: 10px 20px;
 		margin: 0;
 	}
+
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: #0b0e25;
 	}
+
 	.slicknav_parent:hover {
 		background: #22242b;
 		color: #f43f00;
 	}
-	.header-right {
+
+	/* .header-right {
 		display: none;
+	} */
+	.header-right .hr-btn {
+		padding: 36px 0px 36px 44px;
 	}
+
+	.header-right .hr-btn I {
+		left: 6px;
+	}
+
 	.hero-slider .owl-dots {
 		left: 0;
 		padding: 0 15px;
 		text-align: center;
 	}
+
 	.hs-text {
 		margin-bottom: 50px;
 		padding-top: 0;
 	}
+
 	.score-section h2,
 	.hs-text h2 {
 		font-size: 50px;
 	}
+
 	.score-section .hand-img {
 		display: none;
 	}
+
 	.sidebar {
 		padding-top: 50px;
 	}
+
 	.loans-calculator {
 		padding: 70px 45px;
 	}
@@ -1576,42 +1617,102 @@ Contact Page
 	.header-section {
 		padding: 0 15px;
 	}
+
 	.loans-calculator {
 		padding: 50px 15px;
 	}
+
 	.loans-calculator p {
 		padding-right: 0;
 	}
+
 	.score-section h2,
 	.hs-text h2,
 	.cta-section h2 {
 		font-size: 36px;
 	}
+
 	.hero-form {
 		padding: 40px 20px 50px;
 	}
+
 	.icon-box-item .ib-icon {
 		float: none;
 		margin-bottom: 20px;
 	}
+
 	.site-btn.sb-big {
 		min-width: auto;
 	}
+
 	.info-text ul li {
 		font-size: 16px;
 	}
+
 	.loans-text ul {
 		padding-left: 0;
 	}
 }
 
-.sticky {
+
+a,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+.enrich-nav-container {
 	position: fixed;
+	margin: 0;
+	padding: 0;
 	top: 0;
+	z-index: 9999;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.7);
-  }
-  
-  .sticky + .content {
-	padding-top: 60px;
-  }
+}
+
+.enrich-navigation {
+	background: #932804;
+	background: -webkit-linear-gradient(#f43f00, #932804);
+	background: -moz-linear-gradient(#f43f00, #932804);
+	background: linear-gradient(#f43f00, #932804);
+	padding-left: 10%;
+	/* box-shadow: 0 1px 4px #ffffff; */
+}
+
+.enrich-navigation .nav-link {
+	color: #fff;
+}
+
+.enrich-top-bar {
+	background-color: #efe0bd;
+	text-align: right;
+}
+
+.navbar-expand-md .navbar-collapse {
+	justify-content: center;
+}
+
+@media (min-width: 576px) {
+	.navbar-expand-sm .navbar-toggler {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.main-menu li a {
+		margin-right: 45px;
+	}
+}
+
+ .enrich-top-section{
+	margin-top: 146px;
+}
+
+.enrich-accordian{
+	padding: 0 115px;
+}
+
+.active-tab{
+	background-color: #000;
+}
