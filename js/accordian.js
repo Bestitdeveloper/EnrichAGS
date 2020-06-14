@@ -1,7 +1,7 @@
 function success(data) {
-    data.forEach(function(item,index) {
+	data.forEach(function (item, index) {
 
-	const title = `<div class="card enrich-card">
+		const title = `<div class="card enrich-card">
 	<div class="card-header enrich-card-color" id="headingOne">
 	   
 		<button class="btn btn-link enrich-btn-case" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="false" aria-controls="collapse${index}">
@@ -16,15 +16,15 @@ function success(data) {
 	<div class="card-body enrich-scroll">
 	`
 
-	let plans = ``;
-	item[Object.keys(item)[0]].forEach(plan => {
+		let plans = ``;
+		item[Object.keys(item)[0]].forEach(plan => {
 
-		let sbtitle='';
-		plan.subtitles.forEach(sbtit => {
-			sbtitle = sbtitle + `<li>${sbtit}</li>`
-		})
+			let sbtitle = '';
+			plan.subtitles.forEach(sbtit => {
+				sbtitle = sbtitle + `<li>${sbtit}</li>`
+			})
 
-		plans = plans + `<div class="row">
+			plans = plans + `<div class="row">
 			<div class="col-sm-4 text-center">
 				<img src="${plan.image}" class="img-thumbnail" alt="plan914">
 			</div>
@@ -39,25 +39,28 @@ function success(data) {
 				</div>
 			</div>
 		</div> <div class="enrich-seperator"></div>`
+		});
+
+		const footer = `</div></div></div>`
+
+
+		$('#accordion').append(
+			title + plans + footer
+		);
 	});
-
-	const footer = `</div></div></div>`
-
-
-      $('#accordion').append(
-		title + plans + footer
-        );
-    });
-  }
+}
 
 success(products);
-$(`[data-target="#collapse0"]`)[0].click();
 
 function display(event) {
 	event.preventDefault();
 	$(`[data-target="#collapse${event.currentTarget.dataset.index}"]`)[0].click();
-  }
+}
 
-function showform(){
-
-} 
+const path = location.search;
+if (path) {
+	const tab = path.replace('?', '');
+	$(`[data-target="#collapse${tab}"]`)[0].click();
+} else {
+	$(`[data-target="#collapse0"]`)[0].click();
+}
