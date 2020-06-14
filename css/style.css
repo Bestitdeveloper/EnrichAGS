@@ -1719,3 +1719,10 @@ a:active {
 .active-tab {
 	background-color: #000;
 }
+
+.enrich-logo {
+	width: 160px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}

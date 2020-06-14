@@ -1,5 +1,6 @@
 $('#enrichNavContainer').append(
 	`<div class="container-fluid enrich-top-bar">
+			<img class="enrich-logo" src="img/enrich-logo.png" />
 			<div class="header-right">
 				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>+91 8888-888-888 </a>
 				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i> finance@enrich.com </a>
