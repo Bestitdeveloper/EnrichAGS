@@ -2,7 +2,7 @@ $('#enrichNavContainer').append(
 	`<div class="container-fluid enrich-top-bar">
 			<img class="enrich-logo" src="img/enrich-logo.png" />
 			<div class="header-right">
-				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>+91 8888-888-888 </a>
+				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>+91 7776-017-181 </a>
 				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i> finance@enrich.com </a>
 			</div>
 		</div>
@@ -27,7 +27,7 @@ $('#enrichNavContainer').append(
 						</ul>
 					</li>
 					<li id="service" class="nav-item"><a href="service.html">Services</a>
-					<li id="profile" class="nav-item"><a href="profile.html">LIC Profile</a></li>
+					<!-- <li id="profile" class="nav-item"><a href="profile.html">LIC Profile</a></li> -->
 					<li id="gallery" class="nav-item"><a href="gallery.html">Gallery</a></li>
 					<li id="about-us" class="nav-item"><a href="about-us.html">About Us</a></li>
 					<li id="contact" class="nav-item"><a href="contact.html">Contact Us</a></li>
