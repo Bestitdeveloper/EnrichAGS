@@ -1726,3 +1726,19 @@ a:active {
 	left: 100px;
 	top: 10px;
 }
+
+.hero-slider-2 {
+    position: absolute;
+    top: -40px;
+}
+
+.hero-slider-1-text {
+	background: linear-gradient(45deg, black, transparent);
+    padding: 5%;
+}
+
+.hero-slider-2-text {
+    width: 50%;
+    background: linear-gradient(45deg, black, transparent);
+    padding: 5%;
+}
