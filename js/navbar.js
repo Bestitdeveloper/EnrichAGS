@@ -1,7 +1,7 @@
 $('#enrichNavContainer').append(
   `<div class="container-fluid enrich-top-bar">
 			<div class='logo'>
-				<img class="enrich-logo" src="img/logo_v4.png" />
+				<img class="enrich-logo" src="img/logo_v5.png" />
 				<div class="logo-text">Wealth Management</div>
 			</div>
 			<div class="header-right">
