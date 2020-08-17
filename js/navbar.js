@@ -7,7 +7,7 @@ $('#enrichNavContainer').append(
 			<div class="header-right">
 				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>	</a>
 				<a href="#" class="hr-btn" style="margin-right: 10px;">+91 7776-017-181 <br> +91 9028-530-476</a>
-				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i> finance@enrich.com </a>
+				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i>finance@enrich.com </a>
 			</div>
 		</div>
 

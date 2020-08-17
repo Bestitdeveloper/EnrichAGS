@@ -548,7 +548,7 @@ Header section
 	font-size: 16px;
 	font-weight: 300;
 	padding-top: 6px;
-	margin-right: 16px;
+	margin-right: 14px;
 	color: white;
 }
 
@@ -1579,8 +1579,8 @@ Contact Page
 	/* .header-right {
 		display: none;
 	} */
-	.header-right .hr-btn {
-		padding: 36px 0px 36px 44px;
+	.header-right {
+		margin-left: 0px;
 	}
 
 	.header-right .hr-btn I {
