@@ -1723,7 +1723,7 @@ a:active {
   padding: 0 115px;
 }
 
-.active-tab {
+.main-menu li a.active-tab {
   color: #fff;
   border: 1px solid;
 }
