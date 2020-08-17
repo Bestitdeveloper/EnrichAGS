@@ -1,8 +1,12 @@
 $('#enrichNavContainer').append(
 	`<div class="container-fluid enrich-top-bar">
-			<img class="enrich-logo" src="img/enrich-logo.png" />
+			<div class='logo'>
+				<img class="enrich-logo" src="img/logo_v4.png" />
+				<div class="logo-text">Wealth Management</div>
+			</div>
 			<div class="header-right">
-				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>+91 7776-017-181 </a>
+				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>	</a>
+				<a href="#" class="hr-btn" style="margin-right: 10px;">+91 7776-017-181 <br> +91 9028-530-476</a>
 				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i> finance@enrich.com </a>
 			</div>
 		</div>
