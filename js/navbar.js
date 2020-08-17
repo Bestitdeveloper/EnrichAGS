@@ -1,5 +1,5 @@
 $('#enrichNavContainer').append(
-	`<div class="container-fluid enrich-top-bar">
+  `<div class="container-fluid enrich-top-bar">
 			<div class='logo'>
 				<img class="enrich-logo" src="img/logo_v4.png" />
 				<div class="logo-text">Wealth Management</div>
@@ -39,11 +39,14 @@ $('#enrichNavContainer').append(
 			</div>
 		</nav>
     `
-)
+);
 
 function settab() {
-	const tab = location.pathname.split('.html')[0].replace('/', '');
-	$(`#${tab}>a`).addClass('active-tab');
+  const tab = location.pathname
+    .split('.html')[0]
+    .replace('/', '')
+    .split('/')[1];
+  $(`#${tab}>a`).addClass('active-tab');
 }
 
 settab();
