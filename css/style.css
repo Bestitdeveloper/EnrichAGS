@@ -9,8 +9,8 @@
 /* Template default CSS
 /*----------------------------------------*/
 :root {
-  --primary-green-color: #033300;
-  --secondary-green-color: #34d803;
+  --primary-green-color: #932804;
+  --secondary-green-color: #f43f00;
 }
 
 html,
@@ -149,7 +149,7 @@ Commom elements
   padding: 22px 35px;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #f43f00;
+  background: var(--secondary-green-color);
   color: #fff;
   line-height: normal;
   cursor: pointer;
@@ -188,7 +188,7 @@ Commom elements
 }
 
 .accordion-area .panel-header .panel-link.active {
-  background: #f43f00;
+  background: var(--secondary-green-color);
   color: #fff;
 }
 
@@ -253,7 +253,7 @@ Commom elements
 }
 
 .tab-element .nav-tabs .nav-link.active {
-  background: #f43f00;
+  background: var(--secondary-green-color);
   color: #fff;
 }
 
@@ -307,7 +307,7 @@ Commom elements
 .milestone-icon {
   float: left;
   font-size: 62px;
-  color: #f43f00;
+  color: var(--secondary-green-color);
   width: 75px;
 }
 
@@ -344,7 +344,7 @@ Commom elements
   justify-content: center;
   font-size: 39px;
   color: var(--secondary-green-color);
-  border: 3px solid var(--primary-green-color);
+  border: 3px solid var(--secondary-green-color);
   border-radius: 50%;
   float: left;
   margin-right: 20px;
@@ -520,7 +520,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-  color: #f43f00;
+  color: var(--secondary-green-color);
 }
 
 .header-right {
@@ -547,7 +547,7 @@ Header section
   left: 12px;
   display: inline-block;
   text-align: center;
-  background: #003300;
+  background: var(--secondary-green-color);
   border-radius: 50%;
   font-size: 16px;
   font-weight: 300;
@@ -557,7 +557,7 @@ Header section
 }
 
 .header-right .hr-btn.hr-btn-2 {
-  background: #f43f00;
+  background: var(--secondary-green-color);
   padding: 36px 20px;
   min-width: 236px;
   text-align: center;
@@ -679,7 +679,7 @@ CTA section
 
 .cta-section h2 strong {
   font-weight: 900;
-  color: #f43f00;
+  color: var(--secondary-green-color);
 }
 
 .cta-section h5 {
@@ -713,7 +713,7 @@ Feature section
 
 .readmore {
   font-size: 16px;
-  color: #f43f00;
+  color: var(--secondary-green-color);
   font-weight: 900;
 }
 
@@ -789,7 +789,7 @@ Info section
 .info-text ul li {
   font-size: 30px;
   font-weight: 700;
-  color: #f43f00;
+  color: var(--secondary-green-color);
   margin-bottom: 10px;
 }
 
@@ -866,7 +866,7 @@ Footer section
 }
 
 .copyright i {
-  color: #f43f00;
+  color: var(--secondary-green-color);
 }
 
 .copyright a {
@@ -874,7 +874,7 @@ Footer section
 }
 
 .copyright a:hover {
-  color: #f43f00;
+  color: var(--secondary-green-color);
 }
 
 /* ----------------
@@ -944,7 +944,7 @@ About Page
 
 .review-item h6 {
   font-weight: 700;
-  color: #f43f00;
+  color: var(--secondary-green-color);
 }
 
 .review-item h6 span {
@@ -1120,7 +1120,7 @@ Loans Page
   padding-top: 10px;
   border-radius: 80px;
   text-align: center;
-  background: #f43f00;
+  background: var(--secondary-green-color);
 }
 
 .ui-slider .ui-slider-handle:focus {
@@ -1217,7 +1217,7 @@ Blog Page
   border-radius: 40px;
   text-transform: uppercase;
   color: #fff;
-  background: #f43f00;
+  background: var(--secondary-green-color);
 }
 
 .blog-title {
@@ -1267,7 +1267,7 @@ Blog Page
 }
 
 .site-pagination a.active {
-  color: #f43f00;
+  color: var(--secondary-green-color);
 }
 
 .sb-widget {
@@ -1305,7 +1305,7 @@ Blog Page
   padding-left: 24px;
   padding-right: 59px;
   border: none;
-  border-bottom: 2px solid #f43f00;
+  border-bottom: 2px solid var(--secondary-green-color);
   background: #ebf0f3;
 }
 
@@ -1333,7 +1333,7 @@ Blog Page
 }
 
 .sb-widget .tags a:hover {
-  background: #f43f00;
+  background: var(--secondary-green-color);
   color: #fff;
 }
 
@@ -1367,7 +1367,7 @@ Contact Page
 
 .contact-text ul li i {
   font-size: 29px;
-  color: #f43f00;
+  color: var(--secondary-green-color);
   display: inline-block;
   width: 41px;
   position: relative;
@@ -1389,8 +1389,8 @@ Contact Page
 }
 
 .social-links a:hover {
-  color: #f43f00;
-  border-color: #f43f00;
+  color: var(--secondary-green-color);
+  border-color: var(--secondary-green-color);
 }
 
 .contact-form {
@@ -1560,7 +1560,7 @@ Contact Page
   }
 
   .slicknav_nav a:hover {
-    color: #f43f00;
+    color: var(--secondary-green-color);
     border-radius: 0;
     background: #0b0e25;
   }
@@ -1577,7 +1577,7 @@ Contact Page
 
   .slicknav_parent:hover {
     background: #22242b;
-    color: #f43f00;
+    color: var(--secondary-green-color);
   }
 
   /* .header-right {
@@ -1680,13 +1680,20 @@ a:active {
 }
 
 .enrich-navigation {
-  /* background: linear-gradient(#3bff00, #000000); */
-  background: #000000;
-  background: -webkit-linear-gradient(#3bff00, #000000);
-  background: -moz-linear-gradient(#3bff00, #000000);
-  background: linear-gradient(#3bff00, #000000);
+  background: var(--primary-green-color);
+  background: -webkit-linear-gradient(
+    var(--secondary-green-color),
+    var(--primary-green-color)
+  );
+  background: -moz-linear-gradient(
+    var(--secondary-green-color),
+    var(--primary-green-color)
+  );
+  background: linear-gradient(
+    var(--secondary-green-color),
+    var(--primary-green-color)
+  );
   padding-left: 10%;
-  /* box-shadow: 0 1px 4px #ffffff; */
 }
 
 .enrich-navigation .nav-link {
