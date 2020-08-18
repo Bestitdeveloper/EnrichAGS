@@ -1,7 +1,7 @@
 $('#enrichNavContainer').append(
   `<div class="container-fluid enrich-top-bar">
 			<div class='logo'>
-				<img class="enrich-logo" src="img/logo_v5.png" />		
+				<img class="enrich-logo" src="img/enrichlogo.jpg" />
 			</div>
 			<div class="header-right">
 				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>	</a>
@@ -50,4 +50,6 @@ function settab() {
 
 settab();
 
-{/* <div class="logo-text">Wealth Management</div> */}
+{
+  /* <div class="logo-text">Wealth Management</div> */
+}

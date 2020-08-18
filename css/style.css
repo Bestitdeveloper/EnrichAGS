@@ -1755,7 +1755,12 @@ a:active {
   /* width: 160px;
 	position: absolute;
 	left: 100px;
-	top: 10px; */
+  top: 10px; */
+
+  height: 122px;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
 }
 
 .logo {
