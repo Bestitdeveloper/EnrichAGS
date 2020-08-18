@@ -621,7 +621,7 @@ Hero section
 }
 
 .hero-slider .owl-dots .owl-dot.active {
-  background: #003300;
+  background: var(--secondary-green-color);
 }
 
 .hs-text {
