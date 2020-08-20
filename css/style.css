@@ -1789,3 +1789,7 @@ a:active {
   padding-top: 10px;
   font-style: italic;
 }
+
+.enrich-profile-image{
+	width:200px;
+}
