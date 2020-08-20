@@ -1620,49 +1620,6 @@ Contact Page
   }
 }
 
-/* Small Mobile :320px. */
-
-@media only screen and (max-width: 479px) {
-  .header-section {
-    padding: 0 15px;
-  }
-
-  .loans-calculator {
-    padding: 50px 15px;
-  }
-
-  .loans-calculator p {
-    padding-right: 0;
-  }
-
-  .score-section h2,
-  .hs-text h2,
-  .cta-section h2 {
-    font-size: 36px;
-  }
-
-  .hero-form {
-    padding: 40px 20px 50px;
-  }
-
-  .icon-box-item .ib-icon {
-    float: none;
-    margin-bottom: 20px;
-  }
-
-  .site-btn.sb-big {
-    min-width: auto;
-  }
-
-  .info-text ul li {
-    font-size: 16px;
-  }
-
-  .loans-text ul {
-    padding-left: 0;
-  }
-}
-
 a,
 a:focus,
 a:active {
@@ -1791,6 +1748,53 @@ a:active {
   font-style: italic;
 }
 
-.enrich-profile-image{
-	width:200px;
+.enrich-profile-image {
+  width: 200px;
+}
+
+/* Small Mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+  .header-section {
+    padding: 0 15px;
+  }
+
+  .loans-calculator {
+    padding: 50px 15px;
+  }
+
+  .loans-calculator p {
+    padding-right: 0;
+  }
+
+  .score-section h2,
+  .hs-text h2,
+  .cta-section h2 {
+    font-size: 36px;
+  }
+
+  .hero-form {
+    padding: 40px 20px 50px;
+  }
+
+  .icon-box-item .ib-icon {
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .site-btn.sb-big {
+    min-width: auto;
+  }
+
+  .info-text ul li {
+    font-size: 16px;
+  }
+
+  .loans-text ul {
+    padding-left: 0;
+  }
+
+  .header-right {
+    display: none;
+  }
 }
