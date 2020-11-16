@@ -43,10 +43,9 @@ $('#enrichNavContainer').append(
 );
 
 function settab() {
-	const tab = location.pathname;
+	let tab = location.pathname.split('.html')[0];
 	if (tab) {
-		tab.split('.html')[0]
-			.replace('/', '')
+		tab = tab.replace('/', '')
 		$(`#${tab}>a`).addClass('active-tab');
 	}
 }
