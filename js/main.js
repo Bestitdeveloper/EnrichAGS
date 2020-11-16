@@ -1,6 +1,6 @@
 /* ===================================
 --------------------------------------
-  LOANS2GO | Loans HTML Template
+  ENRICH | Wealth Management
   Version: 1.0
 --------------------------------------
 ======================================*/
@@ -8,7 +8,7 @@
 
 'use strict';
 
-$(window).on('load', function() {
+$(window).on('load', function () {
 	/*------------------
 		Preloder
 	--------------------*/
@@ -17,12 +17,12 @@ $(window).on('load', function() {
 
 });
 
-(function($) {
+(function ($) {
 	/*------------------
 		Navigation
 	--------------------*/
 	$(".main-menu").slicknav({
-        appendTo: '.header-section',
+		appendTo: '.header-section',
 		allowParentLinks: true,
 		closedSymbol: '<i class="fa fa-angle-right"></i>',
 		openedSymbol: '<i class="fa fa-angle-down"></i>'
@@ -31,7 +31,7 @@ $(window).on('load', function() {
 	/*------------------
 		Background Set
 	--------------------*/
-	$('.set-bg').each(function() {
+	$('.set-bg').each(function () {
 		var bg = $(this).data('setbg');
 		$(this).css('background-image', 'url(' + bg + ')');
 	});
@@ -48,47 +48,47 @@ $(window).on('load', function() {
 		animateIn: 'fadeIn',
 		items: 1,
 		autoplay: true,
-		autoplayTimeout:5000,
-		autoplayHoverPause:true
+		autoplayTimeout: 5000,
+		autoplayHoverPause: true
 	});
 
 	/*--------------------------
 		Loans slide calculator
 	------------------------------*/
 	$("#slider-range-max").slider({
-	  range: "max",
-	  min: 1000,
-	  max: 15000,
-	  step: 10,
-	  change: function (event, ui) {
-		$("#loan-value").text('$' + ui.value);
-		$("#lone-emi").text('$' + emi(ui.value));
-		console.log(ui);
-		
-	  },
-	  slide: function (event, ui) {
-		$("#loan-value").text('$' + ui.value);
-		$("#lone-emi").text('$' + emi(ui.value));
-	  }
+		range: "max",
+		min: 1000,
+		max: 15000,
+		step: 10,
+		change: function (event, ui) {
+			$("#loan-value").text('$' + ui.value);
+			$("#lone-emi").text('$' + emi(ui.value));
+			console.log(ui);
+
+		},
+		slide: function (event, ui) {
+			$("#loan-value").text('$' + ui.value);
+			$("#lone-emi").text('$' + emi(ui.value));
+		}
 	});
-  
+
 	$("#lc-inc").click(function () {
-	  var value = $("#slider-range-max").slider("value");
-	  var step = $("#slider-range-max").slider("option", "step");
-	  $("#slider-range-max").slider("value", value + step);
-	  
+		var value = $("#slider-range-max").slider("value");
+		var step = $("#slider-range-max").slider("option", "step");
+		$("#slider-range-max").slider("value", value + step);
+
 	});
 
 	$("#lc-dec").click(function () {
-	  var value = $("#slider-range-max").slider("value")
-	  var step = $("#slider-range-max").slider("option", "step");
-	  $("#slider-range-max").slider("value", value - step);
+		var value = $("#slider-range-max").slider("value")
+		var step = $("#slider-range-max").slider("option", "step");
+		$("#slider-range-max").slider("value", value - step);
 	});
 
-	function emi (amount) {
+	function emi(amount) {
 		var result,
 			emi = 52;
-		result = Math.round(amount/emi);
+		result = Math.round(amount / emi);
 		return result;
 	}
 
@@ -107,13 +107,13 @@ $(window).on('load', function() {
 	/*------------------
 		Circle progress
 	--------------------*/
-	$('.circle-progress').each(function() {
+	$('.circle-progress').each(function () {
 		var cpvalue = $(this).data("cpvalue");
 		var cpcolor = $(this).data("cpcolor");
 		var cptitle = $(this).data("cptitle");
-		var cpid 	= $(this).data("cpid");
+		var cpid = $(this).data("cpid");
 
-		$(this).append('<div class="'+ cpid +'"></div><div class="progress-info"><h2>'+ cpvalue +'%</h2><p>'+ cptitle +'</p></div>');
+		$(this).append('<div class="' + cpid + '"></div><div class="progress-info"><h2>' + cpvalue + '%</h2><p>' + cptitle + '</p></div>');
 
 		if (cpvalue < 100) {
 
