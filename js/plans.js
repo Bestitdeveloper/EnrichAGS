@@ -267,7 +267,17 @@ const products = [
                 formLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/Pradhan-Mantri-Vaya-Vandana-Yojana1/Final-Policy-Document_PMVVY-15-06-2020.pdf.aspx",
                 pdfLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/Pradhan-Mantri-Vaya-Vandana-Yojana1/Sales-Brochure-Pradhan-Mantri-Vaya-vandana-Yojana.pdf.aspx",
             },
-
+            {
+                image: 'img/products/plan857.jpg',
+                title: "LIC's Jeevan Akshay - VII (Plan No.: 857)",
+                subtitles: [
+                    "LIC Jeevan Akshay VI policy is among the best plans for investment as it offers financial assistance after retirement.",
+                    "One of the advantageous plans for retirees to get the benefits of pension even after death.",
+                    "It provides the option to get the money back to the beneficiaries after the death of the policyholder."
+                ],
+                formLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/LIC-s-Jeevan-Akshay-VII/LIC-s-Jeevan-Akshay-VII_Policy-Document_website.pdf.aspx",
+                pdfLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/LIC-s-Jeevan-Akshay-VII/LIC-s-Jeevan-Akshay-VII-Sales-Brochure-W4xH9-inches.pdf.aspx",
+            },
             {
                 image: 'img/products/plan850.jpeg',
                 title: "Jeevan Shanti (Plan No.: 858)",
@@ -281,17 +291,6 @@ const products = [
                 ],
                 formLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/LIC-s-New-Jeevan-Shanti-(Plan-No-858)-(UIN-512N338/Sample-Policy-Document_LIC-s-New-Jeevan-Shanti_UIN-512N338V01-(1).pdf.aspx",
                 pdfLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/LIC-s-New-Jeevan-Shanti-(Plan-No-858)-(UIN-512N338/LIC-I-New-Jeevan-Shanti-W-4-5in-X-H-8in-for-web.pdf.aspx",
-            },
-            {
-                image: 'img/products/plan857.jpg',
-                title: "LIC's Jeevan Akshay - VII (Plan No.: 857)",
-                subtitles: [
-                    "LIC Jeevan Akshay VI policy is among the best plans for investment as it offers financial assistance after retirement.",
-                    "One of the advantageous plans for retirees to get the benefits of pension even after death.",
-                    "It provides the option to get the money back to the beneficiaries after the death of the policyholder."
-                ],
-                formLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/LIC-s-Jeevan-Akshay-VII/LIC-s-Jeevan-Akshay-VII_Policy-Document_website.pdf.aspx",
-                pdfLink: "https://www.licindia.in/getattachment/Products/Pension-Plans/LIC-s-Jeevan-Akshay-VII/LIC-s-Jeevan-Akshay-VII-Sales-Brochure-W4xH9-inches.pdf.aspx",
             }
         ],
     },
