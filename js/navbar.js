@@ -4,8 +4,10 @@ $('#enrichNavContainer').append(
 				<img class="enrich-logo" src="img/logo_v6.png" />
 			</div>
 			<div class="header-right">
+				<img src="img/wa.png" width="40" height="40"/>
+				<a href="https://api.whatsapp.com/send?phone=7776017181" target="_blank" class="hr-btn" style="margin-right: 10px;">+91 7776-017-181 </a>
 				<a href="#" class="hr-btn"><i class="flaticon-029-telephone-1"></i>	</a>
-				<a href="#" class="hr-btn" style="margin-right: 10px;">+91 7776-017-181 <br> +91 9028-530-476</a>
+				<a href="#" class="hr-btn" style="margin-right: 10px;">+91 9028-530-476</a>
 				<a href="#" class="hr-btn"><i class="flaticon-013-mail"></i>enrichags@gmail.com </a>
 			</div>
 		</div>
