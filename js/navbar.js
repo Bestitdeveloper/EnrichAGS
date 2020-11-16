@@ -44,12 +44,7 @@ function settab() {
 	const tab = location.pathname
 		.split('.html')[0]
 		.replace('/', '')
-	console.log("TAB: ", location.pathname);
 	$(`#${tab}>a`).addClass('active-tab');
 }
 
 settab();
-
-{
-	/* <div class="logo-text">Wealth Management</div> */
-}
