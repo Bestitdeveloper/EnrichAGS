@@ -481,6 +481,7 @@ Header section
 .main-menu li a.active {
   color: #fff;
   border: 1px solid;
+  border-radius: 25px;
 }
 
 .main-menu li:hover > .sub-menu {
@@ -1690,6 +1691,7 @@ a:active {
 .main-menu li a.active-tab {
   color: #fff;
   border: 1px solid;
+  border-radius: 25px;
 }
 
 .hero-slider-2 {
