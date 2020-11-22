@@ -1485,6 +1485,7 @@ Contact Page
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   .header-section {
     padding: 0 25px;
   }
@@ -1584,9 +1585,14 @@ Contact Page
   /* .header-right {
 		display: none;
 	} */
-  .header-right {
+  /* .header-right {
     margin-left: 0px;
+  } */
+
+  .header-right {
+    display: none;
   }
+  
 
   .header-right .hr-btn I {
     left: 6px;
@@ -1716,18 +1722,36 @@ a:active {
 	left: 100px;
   top: 10px; */
 
-  /* height: 122px; */
+  height: 75px;
   position: absolute;
   z-index: 9999;
   left: 0;
   top: 4px;
 }
 
+.enrich-logo-text {
+  margin-top: 25px;
+  position: absolute;
+  right: 22px;
+  z-index: 9999;
+  color: #4a4103;
+  text-shadow: 2px 1px #ffce00;
+}
+
+.logo-subititle {
+  top: 60px;
+  position: absolute;
+  left: 22px;
+  font-size: 12px;
+  width: 124px;
+  text-align: left;
+  z-index: 99999;
+}
+
 .logo {
   width: 160px;
   position: absolute;
   left: 100px;
-  top: 5px;
 }
 
 .logo-text {
@@ -1757,6 +1781,15 @@ a:active {
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+
+  .logo {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+
   .header-section {
     padding: 0 15px;
   }
