@@ -1668,11 +1668,11 @@ a:active {
   text-align: right;
   height: 100px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 }
 
 .navbar-expand-md .navbar-collapse {
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 @media (min-width: 576px) {
@@ -1718,7 +1718,7 @@ a:active {
 }
 
 .enrich-logo {
-  position: absolute;
+  position: relative;
   z-index: 9999;
   top: 25px;
   background: #fff;
@@ -1746,8 +1746,8 @@ a:active {
 
 .logo {
   width: 190px;
-  position: absolute;
-  left: 70px;
+  /* position: absolute;
+  left: 70px; */
 }
 
 .logo-text {
