@@ -529,8 +529,6 @@ Header section
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 18px;
 }
 
 .header-right .hr-btn {
@@ -1668,7 +1666,9 @@ a:active {
 .enrich-top-bar {
   background-color: #fff;
   text-align: right;
-  height: 75px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-expand-md .navbar-collapse {
@@ -1718,16 +1718,11 @@ a:active {
 }
 
 .enrich-logo {
-  /* width: 160px;
-	position: absolute;
-	left: 100px;
-  top: 10px; */
-
-  height: 75px;
   position: absolute;
   z-index: 9999;
-  left: 0;
-  top: 4px;
+  top: 25px;
+  background: #fff;
+  padding: 6px 8px;
 }
 
 .enrich-logo-text {
@@ -1750,9 +1745,9 @@ a:active {
 }
 
 .logo {
-  width: 160px;
+  width: 190px;
   position: absolute;
-  left: 100px;
+  left: 70px;
 }
 
 .logo-text {

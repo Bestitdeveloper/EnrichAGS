@@ -42,6 +42,23 @@ $('#enrichNavContainer').append(
     `
 );
 
+$('#footerContent').append(
+	`<footer class="footer-section">
+		<div class="container">
+			<p style="color: aliceblue;">Disclaimer: All information expressed here is available to the public and the
+				sources, we believe, are reliable.
+				Readers should use this information at their own risk. Enrich Wealth Management shall not be held responsible for
+				any
+				direct or indirect loss caused by relying on this information.
+			</p>
+			<div class="copyright">Copyright &copy; 2020 <span style="text-decoration: underline;">SS Solution </span>
+				All
+				rights reserved.
+			</div>
+		</div>
+	</footer>`
+);
+
 function settab() {
 	let tab = location.pathname.split('.html')[0];
 	if (tab) {
