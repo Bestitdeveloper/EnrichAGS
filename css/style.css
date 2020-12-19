@@ -629,7 +629,6 @@ Hero section
 }
 
 .hs-text h2 {
-  font-size: 60px;
   color: #fff;
   margin-bottom: 30px;
   line-height: 1.1;
@@ -1703,7 +1702,6 @@ a:active {
 
 .hero-slider-2 {
   position: absolute;
-  top: -40px;
 }
 
 .hero-slider-1-text {
@@ -1712,7 +1710,7 @@ a:active {
 }
 
 .hero-slider-2-text {
-  width: 50%;
+  width: 80%;
   background: linear-gradient(45deg, black, transparent);
   padding: 5%;
 }
