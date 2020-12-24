@@ -596,6 +596,7 @@ Hero section
 .hero-slider .owl-item,
 .hero-slider .hs-item {
   height: 100%;
+  background-size: contain;
 }
 
 .hero-slider .owl-dots {
