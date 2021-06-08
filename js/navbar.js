@@ -1,7 +1,7 @@
 $('#enrichNavContainer').append(
-	`<div class="container-fluid enrich-top-bar">
+  `<div class="container-fluid enrich-top-bar">
 			<div class='logo'>
-				<img class="enrich-logo" src="img/enrich-v1.jpg" />
+				<img class="enrich-logo" src="img/enrich-v2.jpg" />
 			</div>
 			<div class="header-right">
 				<img src="img/wa.png" width="40" height="40"/>
@@ -43,7 +43,7 @@ $('#enrichNavContainer').append(
 );
 
 $('#footerContent').append(
-	`<footer class="footer-section">
+  `<footer class="footer-section">
 		<div class="container">
 			<p style="color: aliceblue;">Disclaimer: All information expressed here is available to the public and the
 				sources, we believe, are reliable.
@@ -60,11 +60,11 @@ $('#footerContent').append(
 );
 
 function settab() {
-	let tab = location.pathname.split('.html')[0];
-	if (tab) {
-		tab = tab.replace('/', '')
-		$(`#${tab}>a`).addClass('active-tab');
-	}
+  let tab = location.pathname.split('.html')[0];
+  if (tab) {
+    tab = tab.replace('/', '');
+    $(`#${tab}>a`).addClass('active-tab');
+  }
 }
 
 settab();

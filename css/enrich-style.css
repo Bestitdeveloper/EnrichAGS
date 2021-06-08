@@ -1,90 +1,94 @@
-@import "./variables.css";
+@import './variables.css';
 
 .enrich-product-list {
-    padding-left: 19px;
+  padding-left: 19px;
 }
 
 .enrich-btn-primary {
-    background-color: var(--main-color);
-    color: #fff;
-    width: 125px;
-    margin-right: 20px;
+  background-color: var(--main-color);
+  color: #fff;
+  width: 125px;
+  margin-right: 20px;
 }
 
 .enrich-btn {
-    padding: 15px;
-    outline: none;
+  padding: 15px;
+  outline: none;
 }
 
 .enrich-btn-case,
 .enrich-btn-case:hover,
 .enrich-btn-case:active,
 .enrich-btn-case:focus {
-    text-transform: capitalize;
-    color: #fff;
-    text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
 }
 
 .icon-1 {
-    position: absolute;
-    right: 0px;
-    border: 1px solid;
-    padding: 23px;
-    top: 0;
-    background-color: var(--main-color);
-    border: none;
+  position: absolute;
+  right: 0px;
+  border: 1px solid;
+  padding: 23px;
+  top: 0;
+  background-color: var(--main-color);
+  border: none;
 }
 
 .icon-2 {
-    position: absolute;
-    right: 0px;
-    border: 1px solid;
-    padding: 23px;
-    top: 0;
-    background-color: var(--main-color);
-    border: none;
+  position: absolute;
+  right: 0px;
+  border: 1px solid;
+  padding: 23px;
+  top: 0;
+  background-color: var(--main-color);
+  border: none;
 }
 
 .enrich-card-color {
-    background-color: #000;
+  background-color: #000;
 }
 
 .enrich-seperator {
-    border-top: 1px solid var(--main-color);
-    margin: 15px 0;
-    opacity: 0.3;
+  border-top: 1px solid var(--main-color);
+  margin: 15px 0;
+  opacity: 0.3;
 }
 
-.enrich-accordian .card [aria-expanded="true"] .icon-1 {
-    display: none;
-
+.enrich-accordian .card [aria-expanded='true'] .icon-1 {
+  display: none;
 }
 
-.enrich-accordian .card [aria-expanded="false"] .icon-1 {
-    display: inline-block;
+.enrich-accordian .card [aria-expanded='false'] .icon-1 {
+  display: inline-block;
 }
 
-.enrich-accordian .card [aria-expanded="true"] .icon-2 {
-    display: inline-block;
+.enrich-accordian .card [aria-expanded='true'] .icon-2 {
+  display: inline-block;
 }
 
-.enrich-accordian .card [aria-expanded="false"] .icon-2 {
-    display: none;
+.enrich-accordian .card [aria-expanded='false'] .icon-2 {
+  display: none;
 }
 
 .enrich-scroll {
-    max-height: 500px;
-    overflow: auto;
+  max-height: 500px;
+  overflow: auto;
 }
 
 .para {
-    line-height: 35px;
+  line-height: 35px;
 }
 
 .top-margin {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .head-space {
-    margin-top: 100px;
+  margin-top: 100px;
+}
+
+.product-image {
+  width: 210px;
+  height: 210px;
 }
